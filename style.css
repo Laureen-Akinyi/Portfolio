@@ -25,9 +25,6 @@ p{
     font-size: large;
     padding-left: 250px;
 }
-/* .profile{
-    width: 120vh;
-} */
 .hero{
     width: 100%;
     height: 100vh;
@@ -52,4 +49,43 @@ p{
 }
 .socials{
     color: #f9f9f9;
+}
+.about-info{
+    padding-left: 250px;
+    padding-top: 120px;
+    color: #363636;
+    font-size: xx-large;
+}
+.profile{
+    width: 60vh;
+    padding-left: 250px;
+}
+
+.more-about{
+    color: #363636;
+    padding-left: 250px;
+    font-size: xx-large;
+    margin-top: -20px;
+    float: right;
+    word-wrap: break-word;
+    width: 27em;
+    padding-right: 70px;
+}
+
+.contact-me + .In-touch{
+    color: #363636;
+}
+input{
+    display: flex;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25vh;
+
+
+}
+input::placeholder{
+    color: #363636;
 }
