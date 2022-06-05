@@ -9,21 +9,21 @@ nav{
 a{
     text-decoration: none;
     padding-right: 30px;
-    color: black;
+    color: #363636;
 }
 a:hover{
-    color: black;
+    color: #363636;
     font-weight: bold;
 }
 h1{
     padding-top: 20vh;
-    text-align: center;
     font-size: x-large;
+    padding-left: 250px;
 }
 p{
     color: beige;
     font-size: large;
-    text-align: center;
+    padding-left: 250px;
 }
 /* .profile{
     width: 120vh;
@@ -43,5 +43,13 @@ p{
     border-radius: 8px;
     cursor: pointer;
     background-color: #f9f9f9;
-    margin-left: 69vh;
+    margin-left: 250px;
+}
+.social-links{
+        padding-top: 50vh;
+        padding-left: 250px;
+       
+}
+.socials{
+    color: #f9f9f9;
 }
